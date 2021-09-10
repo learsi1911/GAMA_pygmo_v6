@@ -726,6 +726,7 @@ class Gama(ABC):
             self._final_pop = self._search_method.output
             print("la población venía perrunfla")
         print("Longitud de la población final_2 en gama.py", len(self._final_pop))
+        print("La poblacion final en en gama.py es", self._final_pop)
         # for ejemplo1 in self._final_pop:
         #     print('fitness.values', ejemplo1.fitness.values)
         #     print('posicion 0 type', ejemplo1.fitness.values[0])
